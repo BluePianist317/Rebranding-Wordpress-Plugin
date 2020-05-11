@@ -1,0 +1,133 @@
+.bftpro label
+{
+	font-weight:bold;
+	min-width: 150px;
+	display:block;
+	float:left;
+}
+
+.bftpro div.help
+{
+	margin-left:5px;
+	font-style:italic;
+	margin-bottom:15px;
+	color:#555;
+}
+
+.bftpro-alert
+{
+	padding:20px;
+	font-weight: bold;
+	background:#EEE;
+}
+
+.bftpro-error
+{
+	padding:20px;
+	font-weight: bold;
+	background:#EEE;
+	color:red;
+}
+
+.bftpro fieldset {
+	border: 1px solid #AAA;	
+	padding: 3px;
+	margin-top: 10px;
+}
+
+.bftpro fieldset legend {
+	background: #DDD;
+	padding: 6px;
+	font-weight: bold;	
+}
+
+.bftpro-warning {
+	border: 1pt solid red;
+	font-weight:bold;
+	padding:10px;
+}
+
+.bftpro-padded {
+	padding:10px;
+}
+
+.bftpro-warning {
+	padding:10px;
+	background-color: orange;
+	color:black;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.bftpro-choose-preset {
+	float:left;
+	padding: 5px;
+	border:1px dashed black;
+	text-align: center;
+	margin: 5px;
+	min-height: 360px;
+}
+
+#ui-datepicker-div {
+   display: none;
+   position: absolute !important;
+   z-index: 999999999 !important;
+}
+
+/* Sign-up Form CSS Styles */
+.bftpro-form {
+	padding: 10px;
+	float: left;
+	display: block;
+}
+
+.bftpro-1-column p {
+	clear: both;
+}
+
+.bftpro-1-column label, .bftpro-multiple-columns label {
+	display: block;	
+}
+
+.bftpro-sidebyside label {
+	display: block;
+	float: left;
+	width: 100px;
+}
+
+.bftpro-multiple-columns p, .bftpro-multiple-columns p.bftpro-sortable-field {
+	display: block;
+	float: left;
+	margin: 10px;
+	width: 220px;
+	cursor: move;
+}
+
+.bftpro-sidebyside p, .bftpro-sidebyside p.bftpro-sortable-field {	
+	width: 330px;
+	display: block;
+	float: left;
+}
+
+form.bftpro-color-dark {
+	background-color: #333333;
+	color: white;	
+}
+
+form.bftpro-color-light {
+	background-color: #FFFFFF;
+	color: black;
+}
+
+form.bftpro-color-light input, form.bftpro-color-light select {
+	background-color: #333333;
+	color: white;
+}
+
+.bftpro-center-block {
+	display: inline-block;
+	clear: both !important;
+	width: 100% !important;
+	text-align: center !important;
+	margin: auto;
+}
