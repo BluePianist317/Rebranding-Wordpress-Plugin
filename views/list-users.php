@@ -49,7 +49,7 @@
 					<option value="any"><?php _e('have any of the tags', 'bftpro');?></option>
 					<option value="all" <?php if(!empty($_GET['filter_tags_mode']) and $_GET['filter_tags_mode'] == 'all') echo 'selected';?>><?php _e('have all the tags', 'bftpro');?></option>
 				</select>
-				<br><em><?php _e('Multiple tags can be separated by comma. In this case select whether you want all or any of them to be matched by the filter.', 'bftpro');?></em><br></p>
+				<br><em></em><br></p>
 
 				
 				<?php foreach($fields as $field):?>
@@ -66,7 +66,7 @@
 					</p>
 				<?php endforeach;?>
 				<p><label><?php _e('No. mails opened:', 'bftpro')?></label> <input type="text" name="readmails_from" size="4" value="<?php echo @$_GET['readmails_from']?>"> - <input type="text" name="readmails_to" size="4" value="<?php echo @$_GET['readmails_to']?>"> <?php _e('(from - to)', 'bftpro')?>
-					<div class="help"><?php _e('Note that "No. mails opened" is not 100% reliable stat. It loads a small graphic in the email to mark which email is opened. But nowadays many email clients do not show the graphics by default, unless the user explicitly selects so.', 'bftpro');?></div>			
+					<div class="help"></div>			
 				</p>
 				<?php do_action('bftpro-subcribers-filter-form');?>
 				<p><input type="submit" value="<?php _e('Filter subscribers', 'bftpro');?>" class="button button-primary">
