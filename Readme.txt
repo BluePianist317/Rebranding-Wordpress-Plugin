@@ -1,2 +1,1 @@
-provic0099
-ProfessorJudith
+Rebranding Wordpress Plugin
